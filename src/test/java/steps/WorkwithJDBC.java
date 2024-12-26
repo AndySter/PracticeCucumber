@@ -1,6 +1,5 @@
 package steps;
 
-import io.cucumber.java.After;
 import io.cucumber.java.bg.И;
 
 import java.sql.*;

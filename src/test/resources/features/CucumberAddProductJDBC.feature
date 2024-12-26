@@ -4,8 +4,8 @@
 Функция: Добавление товара в список товаров
 
   Предыстория:
-    * запущен файл qualit-sandbox.jar и открыта страница по адресу "http://localhost:8080"
-    * подключение к бд по адресу "jdbc:h2:tcp://localhost:9092/mem:testdb", и параметрами: user "user", password "pass"
+    * запущен файл qualit-sandbox.jar и открыта страница по адресу "https://qualit.applineselenoid.fvds.ru/"
+    * подключение к бд по адресу "jdbc:h2:tcp://qualit.applineselenoid.fvds.ru/mem:testdb", и параметрами: user "user", password "pass"
 
   Сценарий: добавление нового товара
     * проверка, что добавляемого товара "Чеснок" еще нет в таблице "FOOD"

@@ -94,6 +94,7 @@
                 <configuration>
                     <testFailureIgnore>true</testFailureIgnore>
                     <includes>**/TestRunner.java</includes>
+
                     <argLine>
                         -Xmx1024m
                         -Dfile.encoding=${encoding.type}
